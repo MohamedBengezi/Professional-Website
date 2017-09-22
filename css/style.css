@@ -1,0 +1,269 @@
+icon-link{
+    float:right;
+}
+@media (max-width: 1090px){
+	#locator{
+		position: static;
+	}
+}
+
+@media(max-width: 270px) {
+    .Projectss span {
+        display: block;
+    }
+    #locator {
+       
+        position: static;
+        visibility: visible;
+        z-index: 200;
+    }
+
+    .links {
+        padding: 25%;
+    }
+
+    .githubCode, .projectUrl {
+        position: static;
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+        padding: 0;
+    }
+}
+
+.links{
+    width: 60px;
+
+}
+#linkedIn {
+    color: black;
+    font-size: 2em;
+    float: right;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+}
+
+
+#linkedIn:hover {
+    color: forestgreen;
+}
+
+
+#git { 
+  color: black;
+  font-size: 2em;
+  float: right;
+  margin: 10px 10px 10px 0;
+  padding: 10px; }
+
+    #git:hover {
+        color: forestgreen;
+    }
+
+#mail {
+  color: black;
+  font-size: 2em;
+  float: right;
+  margin: 10px 10px 10px 0;
+  padding: 10px; }
+
+    #mail:hover {
+        color: forestgreen;
+    }
+
+.large {
+  font-size: 125%;
+}
+
+.emphasize {
+  color: #666;  
+  font-style: italic;
+}
+
+fieldset {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px; }
+
+label {
+  display: inline-block;
+  min-width: 100px; }
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+  margin: 8px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-shadow: inset 0 0 3px 3px #fafafa; }
+
+input[type="submit"] {
+  font-family: "Josefin Sans", Open Sans, Just Another Hand, sans-serif;
+  font-size: 16px;
+  padding: 4px 8px;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 1px 0 #aaa;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+a.icon-link {
+    text-decoration: none;
+}
+
+#RefreshMeGit{
+    font-size: 1em;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+  input[type="submit"]:hover {
+    background-color: #f4f4f4;
+    box-shadow: 0 0 1px 0 #ccc; }
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+h2{
+    font-weight: normal;
+    text-align:center;  
+border-bottom: 1px solid #33ccff;
+}
+html {
+  min-height: 100%;
+ /* background-color: #0769ad;
+  box-shadow: 0 0 8px 4px #06599d inset;*/ }
+
+body {
+    font-size: 16px;
+    font-family: "Lora", Open Sans, Just Another Hand, sans-serif;
+}
+
+.clear {
+  clear: both; }
+
+#content {
+    overflow: auto;
+    color: black;
+    width: 80%;
+    margin: auto auto auto auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+#navMenu {  }
+#navMenu ul { list-style:none; width:330px; }
+#navMenu ul li { font-family:Georgia,serif,Times; font-size:18px; }
+#navMenu ul li a { display:block; width:300px; height:28px; background-color:#333; border-left:5px solid #222; border-right:5px solid #222; padding-left:10px;
+  text-decoration:none; color:#bfe1f1; }
+#navMenu ul li a:hover {  -moz-transform:rotate(-5deg); -moz-box-shadow:10px 10px 20px #000000;
+  -webkit-transform:rotate(-5deg); -webkit-box-shadow:10px 10px 20px #000000;
+  transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }
+
+.projectGit{
+	color: #33ccff;
+	font-size: 36px;
+}
+	
+#locator {
+    display: none;
+    position: absolute;
+    visibility: visible;
+    right: 140px;
+    top: 65px;
+    z-index: 200;
+}
+
+#locator2 {
+    position: absolute;
+    visibility: visible;
+    right: 140px;
+    top: 45px;
+    z-index: 200;
+}
+.social-media-links2 {
+    text-align:center;
+}
+
+#Projects {
+    border-bottom: 1px solid #33ccff;
+    color: black;
+    cursor: pointer;
+}
+#portrait {
+    border: 3px solid black;
+}
+.projectList {
+    color: black;
+    overflow: auto;
+    background-color: lightgray;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    padding: 20px 30px;
+    border: 3px solid #33ccff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+#contact {
+    border-bottom: 1px solid #33ccff;
+    cursor: pointer;
+}
+    #contact:hover {
+        color: lightgrey;
+    }
+
+
+h1 {
+    color: black;
+    text-align: left;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+#Projects:hover {
+    color: lightgrey;
+}
+
+#RefreshMe{
+    font-weight: normal;
+
+}
+#Resume:hover {
+    color: lightgrey;
+}
+#Engineer{
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: black;
+}
+
+#dashboard {
+  position: absolute;
+  width: 120px;
+  height: 60%;
+  left: -140px;
+  top: 100px;
+  padding: 20px;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 0 3px 3px #f0f0f0;
+  background-color: #999; }
+
+
+@media(max-width : 1090px){
+	#locator{
+		display : none;
+	}
+}
